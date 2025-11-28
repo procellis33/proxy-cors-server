@@ -2,7 +2,7 @@ const cors_proxy = require("cors-anywhere");
 require("dotenv").config({ path: __dirname + "/.env" });
 
 const host = "0.0.0.0"; // Listen on all network interfaces
-const port = 8080; // Choose a port for the server
+const port = 8090; // Choose a port for the server
 
 // Custom check function for Authorization header
 const isValidAuth = (req) => {
